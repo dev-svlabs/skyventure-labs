@@ -43,7 +43,7 @@ export function HeroSection() {
           <div className="lg:w-[45%] flex flex-col pt-8">
             {/* Heading */}
             <h1 className="text-5xl lg:text-[4.25rem] xl:text-[5rem] font-bold leading-[1.05] tracking-tight text-foreground font-display text-balance">
-              Engineering the Next Trillion Dollar Economy
+              Build, Scale, and Operate Real Businesses.
             </h1>
 
             {/* Purple line separator */}
@@ -57,22 +57,22 @@ export function HeroSection() {
             {/* Description */}
             <div className="mt-auto">
               <p className="text-base text-foreground/50 leading-relaxed max-w-[520px] font-sans mb-8">
-                Sky Venture Labs is a global venture lab providing strategy, incubation, capital access, technology development, and market expansion for companies building the digital economy.
+                Sky Venture Labs is a full-cycle venture partner — software development, growth systems, operator advisory, and fundraising readiness — for founders, SMEs, and enterprises building what&apos;s next.
               </p>
 
               {/* CTA Buttons */}
               <div className="flex items-center gap-3 flex-wrap mb-10">
                 <Link
-                  href="#"
+                  href="/contact"
                   className="inline-flex items-center px-6 py-2.5 rounded-full border border-foreground/30 text-foreground text-base font-mono tracking-wide hover:bg-foreground/5 transition-colors"
                 >
-                  Start a Conversation
+                  Book a Consultation
                 </Link>
                 <Link
-                  href="#"
+                  href="#operating-model"
                   className="inline-flex items-center px-6 py-2.5 rounded-full border border-foreground/30 text-foreground text-base font-mono tracking-wide hover:bg-foreground/5 transition-colors"
                 >
-                  Explore Our Capabilities
+                  Explore Our Services
                 </Link>
               </div>
             </div>
@@ -98,12 +98,12 @@ export function HeroSection() {
         {/* Bottom right tagline */}
         <div className="flex justify-end pb-10 mt-8">
           <div className="text-right max-w-lg">
-            <p className="text-xs lg:text-sm text-foreground/40 font-mono uppercase tracking-[0.2em] leading-relaxed">
-              WE WORK WITH FOUNDERS, OPERATORS, AND INSTITUTIONS
+            <p className="text-xs lg:text-sm text-foreground/40 font-mono tracking-[0.15em] leading-relaxed">
+              We work with founders, operators, and institutions
             </p>
-            <p className="text-xs lg:text-sm text-foreground/40 font-mono uppercase tracking-[0.2em] leading-relaxed">
+            <p className="text-xs lg:text-sm text-foreground/40 font-mono tracking-[0.15em] leading-relaxed">
               <span className="border-b border-foreground/30 pb-1">
-                TO DESIGN, BUILD, AND SCALE REAL BUSINESSES.
+                to design, build, and scale real businesses.
               </span>
             </p>
           </div>

@@ -6,7 +6,7 @@ const topRowCards = [
     image: "/images/dev-studios/ind-fintech.png",
   },
   {
-    title: "Blockchain & Web3",
+    title: "Digital Infrastructure & Cloud",
     image: "/images/dev-studios/ind-blockchain.png",
   },
   {

@@ -8,7 +8,7 @@ const advisoryFlipStats = [
   { number: "15+", label: "Years Execution" },
   { number: "4M+", label: "Users Reached" },
   { number: "20,000+", label: "Business Owners Supported" },
-  { number: "$100M+", label: "Raised Across Projects" },
+  { number: "40+", label: "Founders Supported" },
 ]
 
 export function AdvisoryHero() {
@@ -61,16 +61,16 @@ export function AdvisoryHero() {
           {/* CTA Buttons */}
           <div className="flex items-center gap-3 flex-wrap">
             <Link
-              href="#"
+              href="/contact"
               className="px-5 py-2.5 text-sm font-mono rounded-full border border-foreground/20 text-foreground hover:bg-foreground/5 transition-colors"
             >
               Talk to an Advisor
             </Link>
             <Link
-              href="#"
+              href="/contact"
               className="px-5 py-2.5 text-sm font-mono rounded-full border border-foreground/20 text-foreground hover:bg-foreground/5 transition-colors flex items-center gap-2"
             >
-              Exchange Readiness Checklist
+              Book a 30-min Diagnostic
               <span aria-hidden="true">&rarr;</span>
             </Link>
           </div>

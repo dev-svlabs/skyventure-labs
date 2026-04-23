@@ -19,7 +19,7 @@ export function FundraisingSprintSection() {
         <div className="relative w-full overflow-hidden rounded-lg border border-foreground/10">
           <Image
             src="/images/fundraising/readiness-sprint-process.png"
-            alt="Incubation to fundraising process: Diagnose, Build Proof, Package, Route"
+            alt="Fundraising readiness process: Diagnose, Build Proof, Package, Route"
             width={1400}
             height={300}
             className="w-full h-auto"

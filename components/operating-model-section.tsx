@@ -19,7 +19,7 @@ const pillars: Pillar[] = [
     description:
       "Technology and product development for businesses, apps, platforms, SaaS, and digital infrastructure.",
     stats: [
-      { value: "1,000+", label: "Developers, Designers" },
+      { value: "1,000+", label: "Developer and designer network" },
       { value: "500+", label: "Companies supported" },
       { value: "4M+", label: "Users on live systems" },
     ],
@@ -52,20 +52,20 @@ const pillars: Pillar[] = [
   {
     title: "Fundraising",
     description:
-      "Company incubation followed by equity, strategic capital, and institutional funding.",
+      "Pitch narrative, investor materials, financial model, and diligence prep for founders running their own raise.",
     stats: [
-      { value: "$50M+", label: "Capital facilitated" },
-      { value: "40+", label: "Companies funded" },
-      { value: "20+", label: "Grant programs" },
+      { value: "50+", label: "Founders coached through raises" },
+      { value: "40+", label: "Investor-ready teams prepared" },
+      { value: "20+", label: "Grant applications supported" },
     ],
     cta: "Explore Fundraising",
-    href: "/incubation",
+    href: "/fundraising",
   },
 ]
 
 export function OperatingModelSection() {
   return (
-    <section className="relative py-24 bg-background">
+    <section id="operating-model" className="relative py-24 bg-background">
       <div className="px-6 lg:px-10">
         {/* Section header with top rule */}
         <div className="flex gap-6">

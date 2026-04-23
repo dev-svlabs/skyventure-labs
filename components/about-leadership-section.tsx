@@ -4,11 +4,10 @@ import Image from "next/image"
 const leaders = [
   {
     name: "Sky Wee",
-    title: "Co-Founder & Managing Partner",
+    title: "Co-Founder & Chief Business Development Officer (CBDO)",
     stats: [
-      "$45M+ capital facilitated",
-      "50+ exchange listings supported",
-      "4M+ combined distribution reach",
+      "15+ years growth and partnerships leadership",
+      "40+ founders supported on GTM and fundraising readiness",
       "Active across Asia, Europe, and North America",
     ],
     photo: "/images/about/sky-wee.png",
@@ -17,12 +16,12 @@ const leaders = [
   },
   {
     name: "Allen Tan Chee Hoe",
-    title: "Co-Founder & Managing Director",
+    title: "Co-Founder & Chief Executive Officer (CEO)",
     stats: [
       "15+ years building scalable systems",
       "4M+ users onboarded",
       "20,000+ business owners supported",
-      "$100M+ raised across projects collectively",
+      "Founders supported who collectively raised $100M+ independently",
     ],
     photo: "/images/about/allen-tan.png",
     xUrl: "#",

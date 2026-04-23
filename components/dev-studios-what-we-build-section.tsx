@@ -14,9 +14,9 @@ const topRowCards = [
     image: "/images/dev-studios/web-mobile.png",
   },
   {
-    title: "Blockchain & Web3 Systems",
+    title: "AI & Automation Systems",
     description:
-      "Smart contracts, token systems, vesting and claim portals, NFT platforms, on-chain analytics.",
+      "AI-powered workflows, process automation, intelligent reporting, and LLM integrations.",
     image: "/images/dev-studios/blockchain-web3.png",
   },
 ]

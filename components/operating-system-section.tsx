@@ -22,7 +22,7 @@ const cards = [
   {
     title: "Fundraising Readiness",
     description:
-      "Company incubation followed by equity, strategic capital, and institutional funding.",
+      "Pitch narrative, investor materials, financial model, and diligence prep for founders running their own raise.",
     image: "/images/marketing/card-performance.png",
   },
 ]

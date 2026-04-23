@@ -47,7 +47,7 @@ export function IncubationChangesSection() {
         <h2 className="text-4xl lg:text-5xl xl:text-6xl font-bold tracking-tight text-foreground leading-[1.1] font-sans uppercase mb-16">
           What Changes
           <br />
-          After Incubation
+          After Readiness Work
         </h2>
 
         {/* 3x2 Card Grid */}

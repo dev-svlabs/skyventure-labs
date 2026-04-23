@@ -1,4 +1,11 @@
+import type { Metadata } from "next"
 import { Navbar } from "@/components/navbar"
+
+export const metadata: Metadata = {
+  title: "Marketing & Events - Sky Venture Labs",
+  description:
+    "Global growth marketing and events for market expansion. Growth systems, brand positioning, distribution, and high-impact industry events.",
+}
 import { MarketingHero } from "@/components/marketing-hero"
 import { MarketingTrustedMediaSection } from "@/components/marketing-trusted-media-section"
 import { MarketingEndToEndSection } from "@/components/marketing-end-to-end-section"
@@ -29,7 +36,7 @@ export default function MarketingPage() {
       <CTASection
         heading={"Build With a Partner That\nUnderstands the Stakes"}
         subtitle={"Confidential \u00B7 No obligation \u00B7 Avg response < 24h"}
-        buttonText="Start a Conversation"
+        buttonText="Book a Consultation"
         bgImage="/images/sky-venture-icon-color.png"
       />
       <Footer />

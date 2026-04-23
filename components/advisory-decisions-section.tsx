@@ -62,10 +62,10 @@ export function AdvisoryDecisionsSection() {
             </div>
 
             <Link
-              href="#"
+              href="/contact"
               className="inline-flex items-center justify-center rounded-full border border-foreground/20 px-6 py-3 text-sm font-mono text-foreground hover:bg-foreground/5 transition-colors w-fit"
             >
-              Launch your Web3 Project
+              Book a Strategy Session
             </Link>
           </div>
 

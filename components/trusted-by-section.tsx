@@ -33,30 +33,27 @@ const defaultCategories: Record<
   string,
   { partners: { name: string; bold?: boolean }[] }
 > = {
-  "Capital & Incubation Partners": {
+  "Technology Partners": {
     partners: [
-      { name: "Binance Labs", bold: true },
-      { name: "KuCoin Ventures" },
-      { name: "Gate Ventures" },
-      { name: "Bing Ventures" },
-      { name: "HTX Venture" },
-      { name: "SEI Foundation" },
+      { name: "AWS", bold: true },
+      { name: "Microsoft Azure" },
+      { name: "Google Cloud" },
+      { name: "Vercel" },
+      { name: "Stripe" },
+      { name: "Twilio" },
     ],
   },
-  "Market & Infrastructure Partners": {
+  "Media & Distribution": {
     partners: [
-      { name: "MEXC", bold: true },
-      { name: "CoinGecko" },
-      { name: "DeFi Llama" },
-      { name: "Chainlink" },
-      { name: "The Graph" },
-      { name: "Alchemy" },
+      { name: "Forbes", bold: true },
+      { name: "Yahoo Finance" },
+      { name: "Business Insider" },
     ],
   },
 }
 
 export function TrustedBySection({
-  heading = "Trusted Across Capital,\nMarkets & Infrastructure",
+  heading = "Trusted Across Technology,\nMarkets & Distribution",
   categories = defaultCategories,
 }: TrustedBySectionProps) {
   const categoryKeys = Object.keys(categories)
@@ -115,12 +112,12 @@ export function TrustedBySection({
             ))}
           </div>
 
-          {/* Right: MEXC logo */}
+          {/* Right: AWS logo */}
           <div className="hidden lg:flex flex-1 items-center justify-end">
             <div className="relative w-[200px] h-[200px]">
               <Image
-                src="/images/mexc-logo.png"
-                alt="MEXC"
+                src="/images/logos/aws.png"
+                alt="AWS"
                 fill
                 className="object-contain brightness-75"
               />

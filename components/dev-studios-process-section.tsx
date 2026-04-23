@@ -14,8 +14,8 @@ const phases = [
   },
   {
     name: "Build",
-    description: "Lead identification, allocation shaping, and credibility reinforcement.",
-    duration: "2-3 weeks",
+    description: "Feature development, code review, pair programming, and QA-in-stream across 2–8 week sprints.",
+    duration: "2–8 weeks",
   },
   {
     name: "Launch",

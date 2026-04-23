@@ -4,7 +4,7 @@ const cases = [
   {
     name: "OrionStack",
     category: "SaaS Platform",
-    scope: "Incubation + seed fundraising",
+    scope: "Fundraising readiness + seed fundraising",
     outcomes: [
       { text: "", bold: "$4.2M", after: " seed round closed" },
       { text: "Lead investor secured within ", bold: "7 weeks", after: "" },
@@ -14,17 +14,17 @@ const cases = [
   {
     name: "NovaChain",
     category: "Infrastructure Network",
-    scope: "Incubation + grants strategy",
+    scope: "Fundraising readiness + grants strategy",
     outcomes: [
       { text: "", bold: "$2.6M", after: " non-dilutive grants secured" },
-      { text: "Funding from ", bold: "2 L1 ecosystems", after: "" },
-      { text: "Ecosystem launch accelerated ", bold: "by 6 months", after: "" },
+      { text: "Funding from ", bold: "2 grant programs", after: "" },
+      { text: "Launch accelerated ", bold: "by 6 months", after: "" },
     ],
   },
   {
     name: "LumenPay",
     category: "Fintech",
-    scope: "Incubation + capital structuring",
+    scope: "Fundraising readiness + capital structuring",
     outcomes: [
       { text: "", bold: "18", after: " targeted investor meetings" },
       { text: "Institutional lead secured", bold: "", after: "" },

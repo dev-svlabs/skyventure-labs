@@ -1,4 +1,11 @@
+import type { Metadata } from "next"
 import { Navbar } from "@/components/navbar"
+
+export const metadata: Metadata = {
+  title: "About Sky Venture Labs - Full-Cycle Venture Partner",
+  description:
+    "Founded in 2021, Sky Venture Labs helps founders and organisations go from idea to product and traction through software development, advisory, and go-to-market execution.",
+}
 import { AboutHero } from "@/components/about-hero"
 import { AboutUsSection } from "@/components/about-us-section"
 import { AboutMilestonesSection } from "@/components/about-milestones-section"

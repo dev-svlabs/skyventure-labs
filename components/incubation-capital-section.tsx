@@ -1,9 +1,9 @@
 export function IncubationCapitalSection() {
   const topRow = [
-    { label: "Ventures incubated and funded", value: "40+" },
-    { label: "Total capital facilitated", value: "$50M+" },
-    { label: "Investor, fund, and launchpad routes", value: "100+" },
-    { label: "L1 / L2 grant programs accessed", value: "20+" },
+    { label: "Investor-ready teams prepared", value: "40+" },
+    { label: "Founders coached through raises", value: "50+" },
+    { label: "Investor and fund matching routes", value: "100+" },
+    { label: "Grant applications supported", value: "20+" },
   ]
 
   const bottomRow = [
@@ -20,7 +20,7 @@ export function IncubationCapitalSection() {
           <div>
             <div className="h-px bg-foreground/20 mb-8" />
             <h2 className="text-5xl lg:text-7xl font-bold uppercase tracking-tight text-foreground leading-[1.05] font-sans">
-              Incubation & Capital<br />At Scale
+              Fundraising Readiness<br />At Scale
             </h2>
           </div>
           <div>

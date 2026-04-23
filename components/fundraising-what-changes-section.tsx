@@ -50,7 +50,7 @@ export function FundraisingWhatChangesSection() {
           <div className="relative w-full aspect-[4/3] rounded-lg overflow-hidden border border-foreground/10">
             <Image
               src="/images/fundraising/what-changes-illustration.png"
-              alt="Pre-incubation to post-incubation transformation showing investor network and project traction"
+              alt="Pre-readiness to post-readiness transformation showing investor network and project traction"
               fill
               className="object-cover"
             />

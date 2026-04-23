@@ -4,24 +4,10 @@ import Link from "next/link"
 const articles = [
   {
     source: "BUSINESS INSIDER",
-    title: "Sky Venture Labs Announces the Launch of WorldX Ventures",
-    date: "Feb 2026",
-    image: "/images/featured/card-worldx.png",
-    href: "https://markets.businessinsider.com/news/currencies/sky-wee-of-sky-venture-labs-announces-the-launch-of-worldx-ventures-1035802432",
-  },
-  {
-    source: "BUSINESS INSIDER",
     title: "Sky Venture Labs Launches Malaysia Hub to Accelerate Digital and AI Transformation in Asia",
     date: "Feb 2026",
-    image: "/images/featured/card-malaysia.png",
+    image: "/images/featured/card-malaysia1.svg",
     href: "https://markets.businessinsider.com/news/currencies/sky-venture-labs-launches-malaysia-hub-to-accelerate-digital-and-ai-transformation-in-asia-1035802431",
-  },
-  {
-    source: "decrypt",
-    title: "Sky Wee Launches Sky Venture Labs: A Web3 Incubation Hub",
-    date: "Sep 2024",
-    image: "/images/featured/card-decrypt.png",
-    href: "https://decrypt.co/249816/sky-wee-lanches-sky-venture-labs-a-web3-incubation-hub",
   },
 ]
 
@@ -41,8 +27,8 @@ export function FeaturedInSection() {
         </div>
       </div>
 
-      {/* 3-column Article Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
+      {/* Article Grid */}
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
         {articles.map((article, index) => (
           <Link
             key={index}

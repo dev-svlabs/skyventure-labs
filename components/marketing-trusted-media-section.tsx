@@ -37,7 +37,7 @@ export function MarketingTrustedMediaSection() {
           <div className="relative">
             <Image
               src="/images/marketing/media-logos.png"
-              alt="Media partners - Cointelegraph, Decrypt, Forbes, CoinDesk Data, Yahoo Finance"
+              alt="Media partners including Forbes, Yahoo Finance, and Business Insider"
               width={1400}
               height={140}
               className="w-full h-auto object-contain"
@@ -59,7 +59,7 @@ export function MarketingTrustedMediaSection() {
           <div className="relative">
             <Image
               src="/images/marketing/events-logos.png"
-              alt="Event partners - TOKEN2049, Binance Blockchain Week, ATX Summit, Cointelegraph"
+              alt="Global event and ecosystem platforms"
               width={1400}
               height={140}
               className="w-full h-auto object-contain"

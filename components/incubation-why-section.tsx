@@ -16,7 +16,7 @@ export function IncubationWhySection() {
           <div className="border border-foreground/10 rounded-lg p-8 lg:p-10 flex flex-col">
             {/* Heading */}
             <h2 className="text-4xl lg:text-5xl font-bold uppercase tracking-tight text-foreground leading-[1.1] font-sans mb-4">
-              WHY INCUBATION
+              WHY READINESS
               <br />
               COMES FIRST
             </h2>
@@ -50,7 +50,7 @@ export function IncubationWhySection() {
           <div className="border border-foreground/10 rounded-lg overflow-hidden relative min-h-[500px] lg:min-h-0">
             <Image
               src="/images/incubation-capsule.png"
-              alt="3D purple capsule representing incubation"
+              alt="3D purple capsule representing fundraising readiness"
               fill
               className="object-cover"
             />

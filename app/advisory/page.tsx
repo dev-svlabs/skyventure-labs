@@ -15,9 +15,9 @@ import { Footer } from "@/components/footer"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Advisory - Sky Venture Labs",
+  title: "Product & GTM Advisory - Sky Venture Labs",
   description:
-    "Product & GTM Advisory for Digital Transformation. We advise on positioning, roadmap, business model design, pricing, and go-to-market planning.",
+    "Operator-led advisory on positioning, roadmap, business model design, pricing, and go-to-market planning for digital and AI transformation.",
 }
 
 export default function AdvisoryPage() {
@@ -37,7 +37,7 @@ export default function AdvisoryPage() {
       <CTASection
         heading={"Build With a Partner That\nUnderstands the Stakes"}
         subtitle={"Confidential \u00B7 No obligation \u00B7 Avg response < 24h"}
-        buttonText="Start a Conversation"
+        buttonText="Book a Consultation"
         bgImage="/images/sky-venture-icon-color.png"
       />
       <Footer />

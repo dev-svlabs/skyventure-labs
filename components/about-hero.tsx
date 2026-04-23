@@ -64,13 +64,13 @@ export function AboutHero() {
               {/* CTAs */}
               <div className="flex items-center gap-3 flex-wrap mb-10">
                 <Link
-                  href="#"
+                  href="/contact"
                   className="inline-flex items-center px-6 py-2.5 rounded-full border border-foreground/30 text-foreground text-base font-mono tracking-wide hover:bg-foreground/5 transition-colors"
                 >
                   Talk to Us
                 </Link>
                 <Link
-                  href="#"
+                  href="/#operating-model"
                   className="inline-flex items-center px-6 py-2.5 rounded-full border border-foreground/30 text-foreground text-base font-mono tracking-wide hover:bg-foreground/5 transition-colors"
                 >
                   {'Explore Our Services \u2192'}
@@ -97,32 +97,6 @@ export function AboutHero() {
         </div>
       </div>
 
-      {/* Scrolling partner logos */}
-      <div className="relative z-20 overflow-hidden py-8 border-t border-foreground/10">
-        <div className="flex animate-scroll gap-12 items-center">
-          {[...Array(3)].map((_, setIndex) => (
-            <div key={setIndex} className="flex gap-12 items-center shrink-0">
-              {[
-                { name: "Binance Labs", src: "/images/logos/binance-labs.png", w: 140, h: 40 },
-                { name: "Gate Ventures", src: "/images/logos/gate-ventures.png", w: 120, h: 40 },
-                { name: "Bybit", src: "/images/logos/bybit.png", w: 90, h: 30 },
-                { name: "AWS", src: "/images/logos/aws.png", w: 80, h: 35 },
-                { name: "Binance", src: "/images/logos/binance.png", w: 120, h: 30 },
-                { name: "KuCoin Ventures", src: "/images/logos/kucoin-ventures.png", w: 140, h: 40 },
-              ].map((logo) => (
-                <Image
-                  key={`${setIndex}-${logo.name}`}
-                  src={logo.src}
-                  alt={logo.name}
-                  width={logo.w}
-                  height={logo.h}
-                  className="object-contain opacity-60 hover:opacity-100 transition-opacity shrink-0"
-                />
-              ))}
-            </div>
-          ))}
-        </div>
-      </div>
     </section>
   )
 }

@@ -67,7 +67,7 @@ export function MarketingEventsLeverageSection() {
             </div>
 
             <Link
-              href="#"
+              href="/contact"
               className="inline-block px-6 py-3 text-sm font-mono border border-foreground/20 rounded-full text-foreground hover:bg-foreground/5 transition-colors"
             >
               Get a Growth Plan

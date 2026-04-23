@@ -34,7 +34,7 @@ export function WhatChangesSection() {
             AFTER WE{"\u2019"}RE INVOLVED
           </h2>
           <p className="text-foreground/50 text-base mt-4 font-sans">
-            Across our technology, growth, and incubation engagements:
+            Across our technology, growth, and advisory engagements:
           </p>
         </div>
         <div className="hidden md:block w-1/3">

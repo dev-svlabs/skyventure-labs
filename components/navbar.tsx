@@ -13,7 +13,6 @@ export function Navbar({ activePage = "Home" }: NavbarProps) {
     { label: "Advisory", href: "/advisory" },
     { label: "Fundraising", href: "/fundraising" },
     { label: "About", href: "/about" },
-    { label: "Blog", href: "/about" },
   ]
 
   return (
@@ -57,7 +56,7 @@ export function Navbar({ activePage = "Home" }: NavbarProps) {
 
       {/* Contact Button */}
       <Link
-        href="#"
+        href="/contact"
         className="ml-3 px-6 py-2.5 text-base rounded-full border border-foreground/20 text-foreground hover:bg-foreground/5 transition-colors font-sans"
       >
         Contact us

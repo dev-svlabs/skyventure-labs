@@ -6,8 +6,8 @@ import { FlippingStat } from "@/components/flipping-stat"
 
 const fundraisingFlipStats = [
   { number: "12+", label: "Markets" },
-  { number: "$100M+", label: "Raised Across Projects" },
-  { number: "20,000+", label: "Business Owners Supported" },
+  { number: "50+", label: "Founders Coached Through Raises" },
+  { number: "40+", label: "Investor-Ready Teams Prepared" },
 ]
 
 export function IncubationHero() {
@@ -43,27 +43,27 @@ export function IncubationHero() {
         {/* Left - description and CTAs */}
         <div className="max-w-lg">
           <p className="text-sm text-foreground/60 font-sans leading-relaxed mb-4">
-            Sky Venture Labs runs <strong className="text-foreground/80">incubation-first fundraising</strong>: we fix
+            Sky Venture Labs provides <strong className="text-foreground/80">advisory-led fundraising readiness</strong>: we fix
             structure, sharpen narrative, build proof, and prepare diligence
-            - so capital conversations convert.
+            — so your raise is run from a position of strength.
           </p>
           <p className="text-sm text-foreground/60 font-sans leading-relaxed mb-8">
-            This is <strong className="text-foreground/80">fundraising readiness</strong> built for real scrutiny.
+            This is <strong className="text-foreground/80">fundraising readiness</strong> built for real scrutiny. You lead your own raise — we make sure you&apos;re ready.
           </p>
 
           {/* CTA Buttons */}
           <div className="flex items-center gap-3 flex-wrap">
             <Link
-              href="#"
+              href="/contact"
               className="px-5 py-2.5 text-sm font-mono rounded-full border border-foreground/20 text-foreground hover:bg-foreground/5 transition-colors"
             >
-              Start Your Raise
+              Book a Readiness Diagnostic
             </Link>
             <Link
-              href="#"
+              href="/contact"
               className="px-5 py-2.5 text-sm font-mono rounded-full border border-foreground/20 text-foreground hover:bg-foreground/5 transition-colors flex items-center gap-2"
             >
-              Incubation Readiness Assessment
+              Operator Readiness Checklist
               <span aria-hidden="true">&rarr;</span>
             </Link>
           </div>

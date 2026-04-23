@@ -1,35 +1,35 @@
 export function AdvisoryStatsSection() {
   const topRow = [
     {
-      label: "Companies advised across Web3, Fintech, SaaS & Infrastructure",
+      label: "Companies advised across Fintech, SaaS & Enterprise Infrastructure",
       value: "500+",
     },
     {
-      label: "Tier-1 / Tier-2 exchange listings supported",
-      value: "50+",
+      label: "Founders supported on GTM and fundraising readiness",
+      value: "40+",
     },
     {
-      label: "Capital aligned with advisory strategy",
-      value: "$50M+",
+      label: "Years of execution leadership across the team",
+      value: "15+",
     },
     {
-      label: "Investor & exchange routes activated",
-      value: "100+",
+      label: "Active markets across Asia, Europe, and North America",
+      value: "12+",
     },
   ]
 
   const bottomRow = [
     {
-      label: "Active markets (Asia, EU, North America)",
-      value: "12+",
+      label: "Companies supported globally",
+      value: "500+",
     },
     {
-      label: "Listing success rate",
-      value: "85%+",
+      label: "Advisory engagements completed on time",
+      value: "95%+",
     },
     {
-      label: "Average post-listing stabilization window",
-      value: "6-12",
+      label: "Typical engagement sprint duration",
+      value: "4-8",
       sub: "weeks",
     },
   ]

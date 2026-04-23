@@ -8,7 +8,7 @@ const stats = [
   { label: "Execution leadership", value: "15+ years" },
   { label: "Users onboarded", value: "4M+" },
   { label: "Business owners supported", value: "20,000+" },
-  { label: "Capital raised across projects collectively", value: "$100M+" },
+  { label: "Founders supported who collectively raised", value: "$100M+ independently" },
 ]
 
 export function AboutAchievementsSection() {

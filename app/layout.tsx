@@ -6,8 +6,8 @@ import './globals.css'
 const darkerGrotesque = Darker_Grotesque({ subsets: ['latin'], variable: '--font-darker-grotesque', weight: ['300', '400', '500', '600', '700', '800', '900'] })
 
 export const metadata: Metadata = {
-  title: 'Sky Venture Labs - Engineering the Next Trillion Dollar Economy',
-  description: 'A global venture lab providing strategy, incubation, capital access, technology development, and market expansion for companies building the digital economy.',
+  title: 'Sky Venture Labs - Build, Scale, and Operate Real Businesses',
+  description: 'Sky Venture Labs is a full-cycle venture partner — software development, growth systems, operator advisory, and fundraising readiness — for founders, SMEs, and enterprises.',
 }
 
 export default function RootLayout({

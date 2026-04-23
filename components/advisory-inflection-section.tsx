@@ -45,7 +45,7 @@ export function AdvisoryInflectionSection() {
             </p>
 
             <Link
-              href="#"
+              href="/contact"
               className="inline-flex items-center justify-center rounded-full border border-foreground/20 px-6 py-3 text-sm font-mono text-foreground hover:bg-foreground/5 transition-colors w-fit"
             >
               Get a Recommendation

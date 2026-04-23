@@ -56,7 +56,7 @@ export function CTASection({
         </p>
 
         <Link
-          href="#"
+          href="/contact"
           className="inline-flex items-center px-8 py-3 rounded-full bg-white text-[#0a0a12] text-base font-mono font-medium hover:bg-white/90 transition-colors"
         >
           {buttonText}

@@ -62,13 +62,13 @@ export function DevStudiosHero() {
           {/* CTA Buttons */}
           <div className="flex items-center gap-3 flex-wrap">
             <Link
-              href="#"
+              href="/contact"
               className="px-5 py-2.5 text-sm font-mono rounded-full border border-foreground/20 text-foreground hover:bg-foreground/5 transition-colors"
             >
               Get a Quote
             </Link>
             <Link
-              href="#"
+              href="/contact"
               className="px-5 py-2.5 text-sm font-mono rounded-full border border-foreground/20 text-foreground hover:bg-foreground/5 transition-colors flex items-center gap-2"
             >
               Talk to the Tech Team

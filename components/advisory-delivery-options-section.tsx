@@ -107,7 +107,7 @@ export function AdvisoryDeliveryOptionsSection() {
 
               {/* CTA */}
               <Link
-                href="#"
+                href="/contact"
                 className="mt-6 inline-flex items-center gap-2 px-5 py-2.5 border border-foreground/20 rounded-full text-sm font-mono text-foreground hover:bg-foreground/5 transition-colors w-fit"
               >
                 {option.cta} <span aria-hidden="true">&rarr;</span>

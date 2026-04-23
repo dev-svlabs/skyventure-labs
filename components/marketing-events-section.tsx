@@ -34,7 +34,7 @@ export function MarketingEventsSection() {
               <ul className="space-y-2">
                 {[
                   "support fundraising momentum",
-                  "reinforce exchange listings",
+                  "reinforce market presence and distribution",
                   "accelerate ecosystem partnerships",
                   "convert attention into long-term relationships",
                 ].map((item, i) => (

@@ -27,8 +27,8 @@ const readinessCards = [
     image: "/images/fundraising/changes-card-5.png",
   },
   {
-    title: "Capital Routing & Introductions",
-    description: "Target list, outreach sequencing, partner routes, warm intros (when aligned).",
+    title: "Investor Targeting Support",
+    description: "Target list, outreach sequencing, and investor matching based on your stage, sector, and raise structure.",
     image: "/images/fundraising/changes-card-6.png",
   },
 ]

@@ -18,17 +18,17 @@ export function FundraisingCapitalNetworkSection() {
         </div>
       </div>
 
-      {/* Capital types we route to */}
+      {/* Media coverage */}
       <div className="mb-14">
         <div className="flex items-center gap-3 mb-8">
           <div className="w-0.5 h-5 bg-foreground/30" />
-          <span className="text-sm text-foreground/50 font-sans">Capital types we route to</span>
+          <span className="text-sm text-foreground/50 font-sans">As seen in</span>
         </div>
         <div className="overflow-x-auto scrollbar-hide">
           <div className="relative w-full min-w-[1100px]">
             <Image
               src="/images/fundraising/capital-types-strip.png"
-              alt="Capital types: Cointelegraph, Decrypt, Forbes, CoinDesk Data, Yahoo Finance"
+              alt="Media coverage: Forbes, Yahoo Finance"
               width={1400}
               height={200}
               className="w-full h-auto"

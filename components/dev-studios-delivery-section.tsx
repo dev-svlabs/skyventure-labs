@@ -1,7 +1,7 @@
 const topRowMetrics = [
   {
     label:
-      "Technologists across web, mobile, backend, blockchain & cloud",
+      "Technologists across web, mobile, backend, and cloud",
     value: "1,000+",
   },
   {

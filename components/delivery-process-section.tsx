@@ -16,7 +16,7 @@ const phases = [
     phase: "Phase 3 - Build & Launch",
     description:
       "Iterative development, production deployment, monitoring, and handover.",
-    duration: "2 weeks",
+    duration: "4–12 weeks",
   },
   {
     phase: "Phase 4 - Optimize",

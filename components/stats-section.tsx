@@ -1,19 +1,19 @@
 export function StatsSection() {
   const rows = [
     [
-      { label: "Ventures advised and incubated", value: "500+" },
-      { label: "Capital facilitated (equity, token, grants)", value: "$50M+" },
-      { label: "Tier-1 / Tier-2 exchange listings", value: "50+" },
+      { label: "Companies advised and supported globally", value: "500+" },
+      { label: "Founders coached through fundraising readiness", value: "50+" },
+      { label: "Grant applications supported", value: "20+" },
     ],
     [
-      { label: "Supported portfolio value", value: "$1B+" },
-      { label: "Direct strategic investments", value: "14" },
-      { label: "Ventures on unicorn trajectories", value: "12+" },
-    ],
-    [
-      { label: "Investor & capital routes", value: "100+" },
-      { label: "Ecosystem institutions & partners", value: "2,000+" },
+      { label: "Users on systems we've built and maintain", value: "4M+" },
+      { label: "Developers and designers in our network", value: "1,000+" },
       { label: "Active global markets", value: "12+" },
+    ],
+    [
+      { label: "Ecosystem institutions & partners", value: "2,000+" },
+      { label: "Major events supported globally", value: "30+" },
+      { label: "Years of execution leadership across the team", value: "15+" },
     ],
   ]
 

@@ -1,4 +1,11 @@
+import type { Metadata } from "next"
 import { Navbar } from "@/components/navbar"
+
+export const metadata: Metadata = {
+  title: "Software Development Studio - Sky Venture Labs",
+  description:
+    "Production-grade software development across web, mobile, cloud, and enterprise systems. From MVPs to mission-critical platforms.",
+}
 import { DevStudiosHero } from "@/components/dev-studios-hero"
 import { DevStudiosTechStackSection } from "@/components/dev-studios-tech-stack-section"
 import { DevStudiosWeBuildSection } from "@/components/dev-studios-we-build-section"
@@ -25,7 +32,7 @@ export default function DevStudiosPage() {
       <CTASection
         heading={"Build With a Partner That\nUnderstands the Stakes"}
         subtitle={"Confidential \u00B7 No obligation \u00B7 Avg response < 24h"}
-        buttonText="Start a Conversation"
+        buttonText="Book a Consultation"
         bgImage="/images/sky-venture-icon-color.png"
       />
       <Footer />

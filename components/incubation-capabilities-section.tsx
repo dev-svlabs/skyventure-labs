@@ -4,7 +4,7 @@ const topRowCards = [
   {
     title: "Capital Structure Design",
     description:
-      "Equity, token, or hybrid structures aligned with stage, governance, and future listings.",
+      "Equity or hybrid structures aligned with stage, governance, and investor expectations.",
     image: "/images/incubation/capital-structure.png",
   },
   {
@@ -35,7 +35,7 @@ const bottomRowCards = [
     image: "/images/incubation/data-room.png",
   },
   {
-    title: "L1/L2 Grants & Non-Dilutive Capital",
+    title: "Grants & Non-Dilutive Capital",
     description:
       "Grant program mapping, application packaging, and milestone alignment.",
     image: "/images/incubation/grants-capital.png",
@@ -51,7 +51,7 @@ export function IncubationCapabilitiesSection() {
           <div>
             <div className="h-px bg-foreground/20 mb-8" />
             <h2 className="text-5xl lg:text-7xl font-bold uppercase tracking-tight text-foreground leading-[1.05] font-sans">
-              Core Incubation &<br />Fundraising Capabilities
+              Core Fundraising<br />Readiness Capabilities
             </h2>
           </div>
           <div>

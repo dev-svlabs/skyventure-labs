@@ -2,34 +2,34 @@ import Image from "next/image"
 
 const events = [
   {
-    title: "TOKEN2049",
+    title: "Asia Tech Week",
     description:
-      "Strategic advisory, tokenomics design, exchange listings, and go-to-market strategy for blockchain projects.",
+      "Strategic advisory, go-to-market strategy, and market entry support for technology companies expanding into Asia.",
     image: "/images/token2049.png",
   },
   {
-    title: "Binance Blockchain Week",
+    title: "Investor Summits",
     description:
-      "End-to-end fundraising support, investor introductions, and L1/L2 grant applications for Web3 startups.",
+      "End-to-end fundraising readiness support, investor introductions, and grant applications for growth-stage startups.",
     image: "/images/binance-blockchain-week.png",
   },
   {
-    title: "Web3 Festival Asia",
+    title: "Digital Transformation Conferences",
     description:
-      "Full-stack development for Web3, DeFi, NFT, and blockchain applications with 1,000+ developer network.",
+      "Full-stack development and platform delivery with a 1,000+ developer and designer network across web, mobile, and cloud.",
     image: "/images/web3-festival-asia.png",
   },
   {
-    title: "Regional Investor Summits",
+    title: "Regional Business Summits",
     description:
-      "Community building, KOL partnerships, and growth marketing for Web3 projects and token launches.",
+      "Community building, KOL partnerships, and growth marketing for B2B and enterprise product launches.",
     image: "/images/regional-investor-summit.png",
   },
 ]
 
 const leveragePoints = [
   "Accelerate fundraising momentum",
-  "Reinforce exchange listings",
+  "Reinforce market presence and distribution",
   "Unlock partnerships",
   "Convert visibility into durable relationships",
 ]
@@ -54,10 +54,10 @@ export function EventsSection() {
                 {"For high-growth ventures, events are not branding exercises. They are market infrastructure."}
               </p>
               <a
-                href="#"
+                href="/contact"
                 className="inline-block mt-6 px-5 py-2.5 border border-foreground/30 rounded-full text-foreground text-xs font-mono tracking-wider hover:bg-foreground/5 transition-colors"
               >
-                {"Launch your Web3 Project"}
+                {"Book an Events Consultation"}
               </a>
             </div>
           </div>
