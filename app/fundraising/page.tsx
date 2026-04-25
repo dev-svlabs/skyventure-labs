@@ -23,7 +23,7 @@ export default function IncubationPage() {
     <main className="min-h-screen bg-background text-foreground">
       <Navbar activePage="Fundraising" />
       <IncubationHero />
-      <FundraisingCapitalNetworkSection />
+      {/* <FundraisingCapitalNetworkSection /> */}
       <IncubationWhySection />
       <FundraisingReadinessSection />
       <FundraisingWhatChangesSection />
@@ -32,9 +32,9 @@ export default function IncubationPage() {
       <IncubationWhoSection />
       <IncubationCasesSection />
       <CTASection
-        heading={"Ready to Run a Stronger Raise?"}
-        subtitle={"Confidential · No obligation · Avg response < 24h"}
-        buttonText="Book a Readiness Diagnostic"
+        heading={"Raise with proof, \n not persuasion."}
+        subtitle={"Send your deck - we’ll tell you what’s missing, what’s weak, and what to fix first."}
+        buttonText="Start fundraising readiness →"
         bgImage="/images/sky-venture-icon-color.png"
       />
       <Footer />

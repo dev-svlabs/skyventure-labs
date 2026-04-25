@@ -13,17 +13,6 @@ const builds = [
     ],
   },
   {
-    name: "NovaChain",
-    category: "Infrastructure Network",
-    logo: "/images/dev-studios/logo-novachain.png",
-    scope: "Incubation + grants strategy",
-    outcomes: [
-      { text: "", bold: "$2.6M", after: " non-dilutive grants secured" },
-      { text: "Funding from ", bold: "2 L1 ecosystems", after: "" },
-      { text: "Ecosystem launch accelerated ", bold: "by 6 months", after: "" },
-    ],
-  },
-  {
     name: "AtlasCRM",
     category: "Enterprise Platform",
     logo: "/images/dev-studios/logo-atlascrm.png",

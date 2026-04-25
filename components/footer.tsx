@@ -122,8 +122,27 @@ export function Footer() {
       <div className="px-6 lg:px-10 max-w-[1400px] mx-auto pb-10 pt-8">
         <div className="border-t border-foreground/10 pt-6">
           <p className="text-sm text-foreground/30 text-center font-sans leading-relaxed max-w-5xl mx-auto">
-            Sky Venture Labs provides advisory and software development services. We do not provide legal, financial, investment, tax, or regulatory advice. We do not raise capital on behalf of clients, broker securities, solicit investments, or act as a financial intermediary. All information on this site is for general educational and informational purposes only. Engage qualified professionals before making any business, legal, or financial decisions.
-          </p>
+          Sky
+Venture Labs
+provides advisory
+and preparation
+services for
+founders. We do
+Critical
+not raise capital
+on behalf of
+clients, do not
+broker securities,
+do not solicit
+investments, and
+are not a
+financial
+intermediary.
+Founders engage
+their own
+investors, legal,
+and financial
+counse          </p>
         </div>
       </div>
     </footer>

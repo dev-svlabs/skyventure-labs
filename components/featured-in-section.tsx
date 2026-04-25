@@ -6,7 +6,7 @@ const articles = [
     source: "BUSINESS INSIDER",
     title: "Sky Venture Labs Launches Malaysia Hub to Accelerate Digital and AI Transformation in Asia",
     date: "Feb 2026",
-    image: "/images/featured/card-malaysia1.svg",
+    image: "/images/featured/card-malaysia1.png",
     href: "https://markets.businessinsider.com/news/currencies/sky-venture-labs-launches-malaysia-hub-to-accelerate-digital-and-ai-transformation-in-asia-1035802431",
   },
 ]

@@ -47,15 +47,21 @@ export function DevStudiosHero() {
           <p className="text-base text-foreground/60 font-sans leading-relaxed mb-4">
             Sky Venture Studios builds{" "}
             <strong className="text-foreground/90 font-semibold">
-              production-grade software
+            a Full-cycle
+            software delivery
             </strong>{" "}
-            across web, mobile, cloud, data, and enterprise systems - from MVPs
-            to mission-critical platforms.
+            across web, mobile, cloud, data, and enterprise systems - from
+discovery to
+launch and
+long-term
+operation.
           </p>
           <p className="text-base text-foreground/60 font-sans leading-relaxed mb-8">
-            We deliver systems that{" "}
+          Built
+to scale{" "}
             <strong className="text-foreground/90 font-semibold">
-              scale, perform, and stay maintainable.
+            ,built to
+            last.
             </strong>
           </p>
 
@@ -65,13 +71,13 @@ export function DevStudiosHero() {
               href="/contact"
               className="px-5 py-2.5 text-sm font-mono rounded-full border border-foreground/20 text-foreground hover:bg-foreground/5 transition-colors"
             >
-              Get a Quote
+              Book a scoping call
             </Link>
             <Link
               href="/contact"
               className="px-5 py-2.5 text-sm font-mono rounded-full border border-foreground/20 text-foreground hover:bg-foreground/5 transition-colors flex items-center gap-2"
             >
-              Talk to the Tech Team
+              See our capabilities
               <span aria-hidden="true">&rarr;</span>
             </Link>
           </div>

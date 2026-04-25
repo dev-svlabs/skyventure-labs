@@ -55,10 +55,10 @@ export function FlippingStat({
       style={{ perspective: "600px" }}
     >
       <div
-        className="transition-transform duration-300 ease-in-out origin-bottom"
+        className="transition-transform duration-300 ease-in-out origin-top"
         style={{
           transformStyle: "preserve-3d",
-          transform: isFlipping ? "rotateX(-90deg)" : "rotateX(0deg)",
+          transform: isFlipping ? "rotateX(90deg)" : "rotateX(0deg)",
           opacity: isFlipping ? 0 : 1,
         }}
       >

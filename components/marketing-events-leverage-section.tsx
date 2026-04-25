@@ -35,7 +35,7 @@ export function MarketingEventsLeverageSection() {
               <ul className="space-y-2.5">
                 {[
                   "Accelerate partnerships and enterprise deals",
-                  "Create fundraising momentum (when relevant)",
+                  "Open enterprise conversations and strategic partnerships",
                   "Establish market authority",
                   "Convert visibility into long-term relationships",
                 ].map((item, i) => (

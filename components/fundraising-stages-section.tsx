@@ -15,7 +15,7 @@ const stages = [
   },
   {
     number: "4",
-    label: "Institutional programs &\ngrants",
+    label: "Grant applications and\nstrategic partnership introductions",
   },
 ]
 

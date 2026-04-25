@@ -9,7 +9,7 @@ interface CTASectionProps {
 }
 
 export function CTASection({
-  heading = "Build With a Partner That\nUnderstands the Stakes",
+  heading = "Build the product.\nWin the market",
   subtitle = "Confidential \u00B7 No obligation \u00B7 Avg response < 24h",
   buttonText = "Start a Conversation",
   bgImage = "/images/sky-venture-icon.png",

@@ -1,6 +1,16 @@
-import { Monitor, Smartphone, Code2, Boxes, Sparkles, CloudUpload, ShieldCheck } from "lucide-react"
+import { Monitor, Smartphone, Code2, Boxes, Sparkles, CloudUpload, ShieldCheck, Search, Palette, Settings } from "lucide-react"
 
 const services = [
+  {
+    title: "Discovery & Architecture",
+    description: "Requirements gathering, system design, and technical architecture planning.",
+    icon: Search,
+  },
+  {
+    title: "UX & UI Design",
+    description: "User research, wireframing, prototyping, and high-fidelity interface design.",
+    icon: Palette,
+  },
   {
     title: "Web Applications",
     description: "SaaS, dashboards, admin systems, portals, internal tools.",
@@ -32,9 +42,14 @@ const services = [
     icon: CloudUpload,
   },
   {
-    title: "Security & Reliability",
-    description: "OWASP-aligned practices, vulnerability scanning, hardening.",
+    title: "QA & Security",
+    description: "Testing, OWASP-aligned practices, vulnerability scanning, and hardening.",
     icon: ShieldCheck,
+  },
+  {
+    title: "Support & Optimization",
+    description: "Ongoing maintenance, performance tuning, and system reliability.",
+    icon: Settings,
   },
 ]
 
@@ -43,7 +58,7 @@ export function DevStudiosWeBuildSection() {
     <section className="bg-background py-24 px-6 lg:px-16">
       <div className="max-w-[1400px] mx-auto">
         {/* Header */}
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-16">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-4">
           <div className="lg:col-span-2 border-t border-foreground/20 pt-6">
             <h2 className="text-5xl lg:text-6xl xl:text-7xl font-bold text-foreground font-display uppercase tracking-tight">
               We Build Everything
@@ -52,6 +67,14 @@ export function DevStudiosWeBuildSection() {
           <div className="border-t border-foreground/20 pt-6" />
         </div>
 
+        <p className="text-base text-foreground/50 font-sans leading-relaxed mb-4">
+        Full
+Development
+Cycle —
+Discovery →
+Design → Build
+→ Launch →
+Operate        </p>
         {/* Service cards grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-px bg-foreground/10">
           {services.map((service) => {

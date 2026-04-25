@@ -80,7 +80,7 @@ export function DevStudiosTechStackSection() {
     <section className="bg-background py-24 px-6 lg:px-16">
       <div className="max-w-[1400px] mx-auto">
         {/* Header */}
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-16">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-4">
           <div className="lg:col-span-2 border-t border-foreground/20 pt-6">
             <h2 className="text-5xl lg:text-6xl xl:text-7xl font-bold text-foreground font-display uppercase tracking-tight">
               Technology Stack
@@ -88,6 +88,11 @@ export function DevStudiosTechStackSection() {
           </div>
           <div className="border-t border-foreground/20 pt-6" />
         </div>
+
+        {/* Subtitle */}
+        <p className="text-base text-foreground/50 font-sans leading-relaxed mb-4">
+          We work across a pragmatic, widely supported stack built to keep your systems maintainable and your team hire-able
+        </p>
 
         {/* Tech rows */}
         <div className="flex flex-col">

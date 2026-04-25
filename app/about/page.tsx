@@ -25,8 +25,12 @@ export default function AboutPage() {
       <AboutCoreValuesSection />
       <AboutAchievementsSection />
       <AboutLeadershipSection />
-      <CTASection bgImage="/images/sky-venture-icon-color.png" />
-      <Footer />
+      <CTASection
+        heading={"From zero to one\nwithout wasting a year."}
+        subtitle={"Tell us what you’re building. We’ll respond with the right lane, a sprint plan, and measurable next steps."}
+        buttonText="Talk to Us →"
+        bgImage="/images/sky-venture-icon-color.png"
+      />      <Footer />
     </main>
   )
 }

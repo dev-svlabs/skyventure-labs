@@ -6,9 +6,9 @@ const cases = [
     category: "SaaS Platform",
     scope: "Fundraising readiness + seed fundraising",
     outcomes: [
-      { text: "", bold: "$4.2M", after: " seed round closed" },
-      { text: "Lead investor secured within ", bold: "7 weeks", after: "" },
-      { text: "Oversubscribed allocation by ", bold: "1.6x", after: "" },
+      { text: "⁠Supported the founder in closing a seed round", bold: "", after: "" },
+      { text: "⁠Helped secure a lead investor within 7 weeks", bold: "", after: "" },
+      { text: "Enabled an oversubscribed allocation of 1.6x", bold: "", after: "" },
     ],
   },
   {
@@ -16,9 +16,9 @@ const cases = [
     category: "Infrastructure Network",
     scope: "Fundraising readiness + grants strategy",
     outcomes: [
-      { text: "", bold: "$2.6M", after: " non-dilutive grants secured" },
-      { text: "Funding from ", bold: "2 grant programs", after: "" },
-      { text: "Launch accelerated ", bold: "by 6 months", after: "" },
+      { text: " ⁠Helped the founder secure non-dilutive grant funding", bold: "", after: "" },
+      { text: "  ⁠The founder accessed funding through multiple grant programs ", bold: "", after: "" },
+      { text: "⁠Enabled the founder to launch 6 months earlier", bold: "", after: "" },
     ],
   },
   {
@@ -26,9 +26,9 @@ const cases = [
     category: "Fintech",
     scope: "Fundraising readiness + capital structuring",
     outcomes: [
-      { text: "", bold: "18", after: " targeted investor meetings" },
-      { text: "Institutional lead secured", bold: "", after: "" },
-      { text: "Strategic partnership included in round", bold: "", after: "" },
+      { text: "⁠Facilitated targeted investor conversations with high-fit prospects", bold: "", after: "" },
+      { text: "Supported the founder in securing an institutional lead", bold: "", after: "" },
+      { text: "Enabled strategic partnerships as part of the fundraising round", bold: "", after: "" },
     ],
   },
 ]

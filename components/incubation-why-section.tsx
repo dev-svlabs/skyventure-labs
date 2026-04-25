@@ -10,7 +10,7 @@ export function IncubationWhySection() {
 
   return (
     <section className="relative py-24 lg:py-32 bg-background">
-      <div className="max-w-[1320px] mx-auto px-6 lg:px-10">
+      <div className="max-w-[1500px] mx-auto px-6 lg:px-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
           {/* Left column - bordered container */}
           <div className="border border-foreground/10 rounded-lg p-8 lg:p-10 flex flex-col">

@@ -30,10 +30,10 @@ export function MarketingHero() {
           <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent" />
 
           {/* Heading overlaid at bottom-left */}
-          <div className="absolute bottom-8 left-8 lg:bottom-12 lg:left-12 max-w-4xl">
+          <div className="absolute bottom-8 left- lg:bottom-12 lg:left-0 max-w-4xl">
             <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold tracking-tight leading-[1.1] font-sans">
-              <span className="text-foreground/40">{'Global Growth Marketing & Events'}</span>{" "}
-              <span className="text-foreground">for Market Expansion</span>
+              <span className="text-foreground/40">{'Global Growth Marketing & Events'}</span>
+              <span className="block text-foreground">for Market Expansion</span>
             </h1>
           </div>
         </div>

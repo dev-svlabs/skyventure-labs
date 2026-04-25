@@ -19,12 +19,12 @@ const phases = [
       "Positioning, packaging, funnel routing, and conversion blockers.",
     timeline: "1-2 weeks",
   },
-  {
-    title: "Weekly Operator Reviews",
-    description:
-      "Iterate fast, track movement, and keep execution aligned.",
-    timeline: "1-2 weeks",
-  },
+  // {
+  //   title: "Weekly Operator Reviews",
+  //   description:
+  //     "Iterate fast, track movement, and keep execution aligned.",
+  //   timeline: "1-2 weeks",
+  // },
 ]
 
 export function AdvisorySprintSection() {

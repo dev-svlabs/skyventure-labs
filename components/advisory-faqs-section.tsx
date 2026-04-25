@@ -4,10 +4,6 @@ const faqs = [
     answer: "No. This is operator-led advisory built to ship.",
   },
   {
-    question: "Do you provide legal, financial, or investment advice?",
-    answer: "No. We provide product, GTM, execution and operational advisory.",
-  },
-  {
     question: "How quickly can we start?",
     answer: "Typically within days, depending on availability.",
   },

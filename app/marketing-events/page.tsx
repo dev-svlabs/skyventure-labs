@@ -24,7 +24,7 @@ export default function MarketingPage() {
     <main className="min-h-screen bg-background text-foreground">
       <Navbar activePage="Marketing & Events" />
       <MarketingHero />
-      <MarketingTrustedMediaSection />
+      {/* <MarketingTrustedMediaSection /> */}
       <MarketingEndToEndSection />
       <MarketingGrowthSystemsSection />
       <MarketingEventsLeverageSection />
@@ -34,9 +34,9 @@ export default function MarketingPage() {
       <MarketingMeasurementSection />
       <MarketingWhySVLSection />
       <CTASection
-        heading={"Build With a Partner That\nUnderstands the Stakes"}
-        subtitle={"Confidential \u00B7 No obligation \u00B7 Avg response < 24h"}
-        buttonText="Book a Consultation"
+        heading={"Own the market,\nnot just the spotlight"}
+        subtitle={"Tell us what you're launching, we'll respond with a plan,\nchannels, timelines and KPIs"}
+        buttonText="Get a Growth Plan"
         bgImage="/images/sky-venture-icon-color.png"
       />
       <Footer />

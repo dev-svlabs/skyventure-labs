@@ -30,9 +30,9 @@ export default function DevStudiosPage() {
       <DevStudiosBuildsSectionComponent />
       <DevStudiosWebsitePackagesSection />
       <CTASection
-        heading={"Build With a Partner That\nUnderstands the Stakes"}
-        subtitle={"Confidential \u00B7 No obligation \u00B7 Avg response < 24h"}
-        buttonText="Book a Consultation"
+        heading = {"Build the product.\nWin the market"}
+        subtitle={"Tell us what you're building, we'll respond with a plan, timeline, and \nteam setup."}
+        buttonText="Get a Quote"
         bgImage="/images/sky-venture-icon-color.png"
       />
       <Footer />

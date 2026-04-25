@@ -35,9 +35,9 @@ export default function AdvisoryPage() {
       <AdvisoryWhySvlSection />
       <AdvisoryFaqsSection />
       <CTASection
-        heading={"Build With a Partner That\nUnderstands the Stakes"}
-        subtitle={"Confidential \u00B7 No obligation \u00B7 Avg response < 24h"}
-        buttonText="Book a Consultation"
+        heading={"Make the next move\nthe right move."}
+        subtitle={"Tell us where you're stuck, we'll respond with a decision plan, KPI scoreboard, and a spirit cadence built for excellence."}
+        buttonText="Book an Advisory Call ->"
         bgImage="/images/sky-venture-icon-color.png"
       />
       <Footer />

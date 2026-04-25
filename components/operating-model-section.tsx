@@ -95,7 +95,7 @@ export function OperatingModelSection() {
               </div>
 
               {/* Description */}
-              <p className="text-base text-foreground/50 font-sans leading-relaxed mb-6 max-w-lg">
+              <p className="text-base text-foreground/50 font-sans leading-relaxed mb-6">
                 {pillar.description}
               </p>
 
